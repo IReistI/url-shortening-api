@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--neutral-gray-950);
+  padding-block: 3rem;
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    @media (width >= 1024px) {
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    @media (width >=1440px) {
+      gap: 5rem;
+    } 
+  }
+  @media (width >= 1440px) {
+    padding-block: 5rem;
+  }
+}
+
+.logo {
+  flex: 1;
+  img {
+    filter: invert(100%);
+  }
+}
