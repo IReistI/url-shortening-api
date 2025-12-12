@@ -45,6 +45,13 @@ export function Footer() {
         ))}
         <FooterSocials />
       </div>
+      <div className={styles.attribution}>
+        <p>
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>
+          {' • '}
+          Coded by <a href="https://github.com/IReistI" target="_blank" rel="noopener noreferrer">Braian Nuñez</a>
+        </p>
+      </div>
     </footer>
   )
 }
