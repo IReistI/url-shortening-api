@@ -37,7 +37,7 @@ export function Footer() {
       <div className='container'>
         <h2 className={styles.logo}>
           <a href="/" aria-label="Ir al inicio">
-            <img src={logo} alt="Shortly" />
+            <img width="110" height="33" src={logo} alt="Shortly" />
           </a>
         </h2>
         {footerData.map((section, index) => (
